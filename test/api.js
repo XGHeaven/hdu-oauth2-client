@@ -17,8 +17,8 @@ var server = restify.createServer({
 });
 
 ['get', 'post'].forEach(function (e) {
-    server[e](/^\/asd.+/, oauth.proxy({
-        prefix: '/asd'
+    server[e](/^\/public.+/, oauth.proxy({
+        prefix: '/public'
     }));
 });
 
@@ -34,9 +34,9 @@ describe('#Client', function () {
     });
 
     describe('#proxy', function (done) {
-        it('404', function (done) {
-            request('http://localhost:3500/asd/public/schooltime/1', function (err, res, data) {
-                res.statusCode.should.equal(404);
+        it('200', function (done) {
+            request('http://localhost:3500/public/public/schooltime/1', function (err, res, data) {
+                res.statusCode.should.equal(200);
 
                 done();
             })
