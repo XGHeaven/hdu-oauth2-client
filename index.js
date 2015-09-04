@@ -3,4 +3,4 @@
  */
 var Client = require('./lib/api.js');
 
-modules.exports = Client;
+module.exports = Client;
