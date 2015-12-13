@@ -1,24 +1,24 @@
 {
   "name": "hdu-oauth2-client",
   "version": "1.0.2",
-  "description": "it is a client for api.hdu.edu.cn",
+  "description": "A client for api.hdu.edu.cn",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/RabbitSion/hdu-oauth2-client.git"
+    "url": "https://github.com/redhome/hdu-oauth2-client.git"
   },
   "keywords": [
     "hdu"
   ],
-  "author": "rabbitsion",
-  "license": "ISC",
+  "author": "Redhome Studio",
+  "license": "GPL v2",
   "bugs": {
-    "url": "https://github.com/RabbitSion/hdu-oauth2-client/issues"
+    "url": "https://github.com/redhome/hdu-oauth2-client/issues"
   },
-  "homepage": "https://github.com/RabbitSion/hdu-oauth2-client",
+  "homepage": "https://github.com/redhome/hdu-oauth2-client",
   "dependencies": {
     "request": "^2.60.0"
   },
