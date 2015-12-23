@@ -15,7 +15,7 @@ interface ProxyConfig {
     prefix: String
 }
 
-export class Client {
+export declare class Client {
     constructor(options: ClientOptions);
 
     get(resourcePath: String, callback?: (error: any, response: IncomingMessage) => void);
