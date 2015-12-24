@@ -19,7 +19,7 @@ declare module 'hdu-oauth2-client' {
     export class Client {
         constructor(options: ClientOptions);
         
-        get(resourcePath: String, callback?: (error: any, response: IncomingMessage) => void);
+        get(resourcePath: String, callback?: (error: any, response: IncomingMessage, body: any) => void);
         
         proxy(config: ProxyConfig): (req: ServerRequest, res: ServerResponse, next: (error?: any) => void) => void;
     }
