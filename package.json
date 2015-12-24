@@ -25,5 +25,8 @@
   "devDependencies": {
     "restify": "^4.0.0",
     "should": "^7.1.0"
+  },
+  "typescript": {
+    "definition": "hdu-oauth2-client.d.ts"
   }
 }
