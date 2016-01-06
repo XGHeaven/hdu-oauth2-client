@@ -1,3 +1,5 @@
+'use strict';
+
 var muk = require('muk');
 
 describe('exam method', function() {
