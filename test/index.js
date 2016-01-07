@@ -1,6 +1,6 @@
 'use strict';
 
-global.should = require('should');
+global.should = require('chai').should();
 global.Client = require('../');
 
 // require('./spec/api');
