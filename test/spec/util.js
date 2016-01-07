@@ -6,7 +6,7 @@ const util = require('../../lib/util');
 describe('util', function() {
     it('highOrderForId', function() {
         let temp = {
-            get(url) {
+            getAsync(url) {
                 url.should.be.eql('/path/to/exec/id')
             }
         }
